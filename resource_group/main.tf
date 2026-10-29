@@ -13,6 +13,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "resourcegroup" {
-  name     = "rg-caroline-sujin"
-  location = "East US"
+  name     = "var.name"
+  location = "var.location"
 }
