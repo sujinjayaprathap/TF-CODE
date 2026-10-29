@@ -1,4 +1,4 @@
 variable "resourcegroup" {
-  name            = "rg-carioline-sujin"
+  name            = "rg-caroline-sujin"
   location        = "East US"
 }
